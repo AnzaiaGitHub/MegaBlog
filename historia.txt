@@ -23,7 +23,7 @@ $git branch new_branch : crea una rama en el proyecto.
 
 $git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
 
-$git checkout #commit file.ext : realiza el llamado al archivo en su estado según ese commit indicado y lo trae al directorio.
+$git checkout #commit file.ext : realiza el llamado al archivo en su estado según ese commit indicado y lo trae al directorio. (Si quiere guardar esa versión anterior como la actual simplemente haga un commit)
 
 ---------------------------
 
