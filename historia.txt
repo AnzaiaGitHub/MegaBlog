@@ -2,5 +2,24 @@ Esta es la historia que se va a guardar.
 
 Se escribió el 4-8-2022 a las 12:42 en Anzaia's Computer.
 
+Comandos de Git:
+$git init : inicializa el repositorio en la carpeta del proyecto.
+
+$git add . : añade al Staging los cambios detectados.
+
+$git commit -m "mensaje de commit" :sube al repositorio los cambios realizados con un mensaje obligatorio para saber qué se modificó en dicho commit.
+
+$git show : muestra las diferencias entre el último commit y su anterior.
+
+$git diff : muestra las diferencias entre el staging y el directorio actual.
+
+$git diff #commitA #commitB : muestra la diferencias o modificaciones entre los commit A y B.
+
+$git log : muestra todos los commits realizados en la rama que estamos ubicados
+
+$git branch new_branch : crea una rama en el proyecto.
+
+$git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
+
 Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
 $git reset #commit --hard (el --soft deja vivos los commits, el --hard los resetea por completo)
