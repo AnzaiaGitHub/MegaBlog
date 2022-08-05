@@ -1,4 +1,4 @@
-Esta es la historia que se va a guardar.
+Esta es la historia que se va a guardar. La historia de su vida
 
 Se escribió el 4-8-2022 a las 12:42 en Anzaia's Computer.
 
@@ -20,6 +20,8 @@ $git log : muestra todos los commits realizados en la rama que estamos ubicados
 $git branch new_branch : crea una rama en el proyecto.
 
 $git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
+
+---------------------------
 
 Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
 $git reset #commit --hard (el --soft deja vivos los commits, el --hard los resetea por completo)
