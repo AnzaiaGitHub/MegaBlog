@@ -1,3 +1,6 @@
 Esta es la historia que se va a guardar.
 
-Se escribió el 4-8-2022 a las 12:42 en Anzaia's Computer
+Se escribió el 4-8-2022 a las 12:42 en Anzaia's Computer.
+
+Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
+$git reset #commit --hard (el --soft deja vivos los commits, el --hard los resetea por completo)
