@@ -9,6 +9,8 @@ $git add . : añade al Staging los cambios detectados.
 
 $git commit -m "mensaje de commit" :sube al repositorio los cambios realizados con un mensaje obligatorio para saber qué se modificó en dicho commit.
 
+$git commit -am "mensaje del commit" : hace git add de los cambios y git commit. (solo para archivos ya creados anteriormente)
+
 $git show : muestra las diferencias entre el último commit y su anterior.
 
 $git diff : muestra las diferencias entre el staging y el directorio actual.
