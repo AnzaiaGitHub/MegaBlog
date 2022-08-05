@@ -25,6 +25,17 @@ $git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
 
 $git checkout #commit file.ext : realiza el llamado al archivo en su estado según ese commit indicado y lo trae al directorio. (Si quiere guardar esa versión anterior como la actual simplemente haga un commit)
 
+$git rm file.ext : borra el archivo del directorio.
+
+$git rm --cached file.ext : borra el archivo del repositorio y del staging.
+
+$git rm --force file.ext : borra el archivo del directorio, repositorio y staging.
+
+$git reset #commit --soft : volvemos a dicho commit pero conservando el staging.
+
+$git reset #commit --hard : volvemos a dicho commit perdiendo todo el progreso posterior al mismo y lo almacenado en staging.
+
+
 ---------------------------
 
 Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
