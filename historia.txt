@@ -35,6 +35,7 @@ $git reset #commit --soft : volvemos a dicho commit pero conservando el staging.
 
 $git reset #commit --hard : volvemos a dicho commit perdiendo todo el progreso posterior al mismo y lo almacenado en staging.
 
+$git reset HEAD file.ext: resetea el archivo en el staging, porque tal vez no debía subir esos cambios al no estar listos para commitear.
 
 ---------------------------
 
