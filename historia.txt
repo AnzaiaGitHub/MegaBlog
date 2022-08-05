@@ -19,6 +19,22 @@ $git log : muestra todos los commits realizados en la rama que estamos ubicados.
 
 $git log --stat : muestra todos los cambios específicos de cada archivo en cada commit (inserciones y supresiones) (oprimir Q para salir de la pantalla de log)
 
+$git log --oneline : #commit + "descripcion del commit".
+
+$git log --decorate : Muestra donde se encuentra el head point en el log.
+
+$git log -p : explica el número de líneas que se cambiaron y muestra qué se cambió en el contenido.
+
+$git shortlog : muestra los commits de un usuario.
+
+$git log -N : limitamos el número de commits a N.
+
+$git log --after="2022-8-3" --before="today" : commits filtrados por fecha.
+
+$git log --author="name" : Commits hechos por el autor en cuestión.
+
+$git log -file.ext : Commits del archivo en cuestión.
+
 $git branch new_branch : crea una rama en el proyecto.
 
 $git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
@@ -37,7 +53,16 @@ $git reset #commit --hard : volvemos a dicho commit perdiendo todo el progreso p
 
 $git reset HEAD file.ext: resetea el archivo en el staging, porque tal vez no debía subir esos cambios al no estar listos para commitear.
 
----------------------------
+-----------Repositorio-Remoto---------------
+$git clone url_repositorio_remoto : descarga archivos e historial de cambios al directorio local y repositorio local.
+
+$git push : sube los commits realizados en el repositorio local al repositorio remoto.
+
+$git fetch : trae los commits del repositorio remoto al repositorio local.
+
+$git merge : actualiza los archivos del directorio local con los commits del repositorio local.
+
+$git pull : trae commits y archivos del repositorio remoto y actualiza los archivos del directorio local y los commits del repositorio local.
 
 Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
 $git reset #commit --hard (el --soft deja vivos los commits, el --hard los resetea por completo)
