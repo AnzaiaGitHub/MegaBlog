@@ -1,0 +1,75 @@
+Esta es la historia que se va a guardar. La historia de su vida y la obra de su maestra.
+
+Se escribió el 4-8-2022 a las 12:42 en Anzaia's Computer.
+
+Comandos de Git:
+$git init : inicializa el repositorio en la carpeta del proyecto.
+
+$git add . : añade al Staging los cambios detectados.
+
+$git commit -m "mensaje de commit" :sube al repositorio los cambios realizados con un mensaje obligatorio para saber qué se modificó en dicho commit.
+
+$git commit -am "mensaje del commit" : hace git add de los cambios y git commit. (solo para archivos ya creados anteriormente)
+
+$git show : muestra las diferencias entre el último commit y su anterior.
+
+$git diff : muestra las diferencias entre el staging y el directorio actual.
+
+$git diff #commitA #commitB : muestra la diferencias o modificaciones entre los commit A y B.
+
+$git log : muestra todos los commits realizados en la rama que estamos ubicados.
+
+$git log --stat : muestra todos los cambios específicos de cada archivo en cada commit (inserciones y supresiones) (oprimir Q para salir de la pantalla de log)
+
+$git log --oneline : #commit + "descripcion del commit".
+
+$git log --decorate : Muestra donde se encuentra el head point en el log.
+
+$git log -p : explica el número de líneas que se cambiaron y muestra qué se cambió en el contenido.
+
+$git shortlog : muestra los commits de un usuario.
+
+$git log -N : limitamos el número de commits a N.
+
+$git log --after="2022-8-3" --before="today" : commits filtrados por fecha.
+
+$git log --author="name" : Commits hechos por el autor en cuestión.
+
+$git log -file.ext : Commits del archivo en cuestión.
+
+$git branch new_branch : crea una rama en el proyecto.
+
+$git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
+
+$git checkout #commit file.ext : realiza el llamado al archivo en su estado según ese commit indicado y lo trae al directorio. (Si quiere guardar esa versión anterior como la actual simplemente haga un commit)
+
+$git rm file.ext : borra el archivo del directorio.
+
+$git rm --cached file.ext : borra el archivo del repositorio y del staging.
+
+$git rm --force file.ext : borra el archivo del directorio, repositorio y staging.
+
+$git reset #commit --soft : volvemos a dicho commit pero conservando el staging.
+
+$git reset #commit --hard : volvemos a dicho commit perdiendo todo el progreso posterior al mismo y lo almacenado en staging.
+
+$git reset HEAD file.ext: resetea el archivo en el staging, porque tal vez no debía subir esos cambios al no estar listos para commitear.
+
+-----------Repositorio-Remoto---------------
+$git clone url_repositorio_remoto : descarga archivos e historial de cambios al directorio local y repositorio local.
+
+$git push : sube los commits realizados en el repositorio local al repositorio remoto.
+
+$git fetch : trae los commits del repositorio remoto al repositorio local.
+
+$git merge : actualiza los archivos del directorio local con los commits del repositorio local.
+
+$git merge new_branch : hace la fusión automática de la rama en la que estás ubicado (HEAD) con el último commit de la rama en mensión.
+
+$git pull : trae commits y archivos del repositorio remoto y actualiza los archivos del directorio local y los commits del repositorio local.
+
+$git reset #commit --hard (el --soft deja vivos los commits, el --hard los resetea por completo)
+
+$git remote add origin urldelrepo.com : añade el repositorio online como origen remoto en el repo local.
+
+$git pull origin main --allow-unrelated-histories : realiza el pull del repo online sin importar la diferencia entre commits.
