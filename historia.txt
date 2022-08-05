@@ -68,5 +68,6 @@ $git merge new_branch : hace la fusión automática de la rama en la que estás 
 
 $git pull : trae commits y archivos del repositorio remoto y actualiza los archivos del directorio local y los commits del repositorio local.
 
-Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
 $git reset #commit --hard (el --soft deja vivos los commits, el --hard los resetea por completo)
+
+$git remote add origin urldelrepo.com : añade el repositorio online como origen remoto en el repo local.
