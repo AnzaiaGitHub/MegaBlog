@@ -64,6 +64,8 @@ $git fetch : trae los commits del repositorio remoto al repositorio local.
 
 $git merge : actualiza los archivos del directorio local con los commits del repositorio local.
 
+$git merge new_branch : hace la fusión automática de la rama en la que estás ubicado (HEAD) con el último commit de la rama en mensión.
+
 $git pull : trae commits y archivos del repositorio remoto y actualiza los archivos del directorio local y los commits del repositorio local.
 
 Antes hubo una modificación a las 12:50 pero se tuvo que resetear para probar el comando
