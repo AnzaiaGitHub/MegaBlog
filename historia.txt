@@ -92,4 +92,7 @@ $git push origin branch : sube la rama en cuestión al repositorio remoto.
 
 $git clone url_repo : clona el repositorio remoto en el directorio local.
 
-NOTA: las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
+NOTAS:
+- Las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
+
+- Para colocar emoticonos como ✌ en VS Code, debes usar la combinación de teclas (windows + .) y te sale el desplegable
