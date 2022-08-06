@@ -73,3 +73,5 @@ $git reset #commit --hard (el --soft deja vivos los commits, el --hard los reset
 $git remote add origin urldelrepo.com : añade el repositorio online como origen remoto en el repo local.
 
 $git pull origin main --allow-unrelated-histories : realiza el pull del repo online sin importar la diferencia entre commits.
+
+$git tag -a TextoDelTag -m "Descripción de referencia del tag" #commit : asigna una etiqueta al commit referenciado.
