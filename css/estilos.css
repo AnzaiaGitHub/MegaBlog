@@ -29,3 +29,9 @@ body{
   font-weight: normal;
   font-size: 0.8rem;
 }
+#footer {
+  text-align: center;
+  background: darkblue;
+  color: whitesmoke;
+  padding: 12px;
+}
