@@ -85,3 +85,7 @@ $git push origin :refs/tags/tagname : borra las etiquetas del repositorio remoto
 $git show-branch : muestra las ramas del repositorio local y sus últimos commits.
 
 $git show-branch --all : muestra todos los detalles de todas las ramas incluidas las remotas.
+
+$gitk : (GitKraken) es el software visual que ayuda a realizar seguimiento al flujo de trabajo, commits y ramas del proyecto.
+
+$git push origin branch : sube la rama en cuestión al repositorio remoto.
