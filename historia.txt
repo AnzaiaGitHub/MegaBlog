@@ -89,3 +89,10 @@ $git show-branch --all : muestra todos los detalles de todas las ramas incluidas
 $gitk : (GitKraken) es el software visual que ayuda a realizar seguimiento al flujo de trabajo, commits y ramas del proyecto.
 
 $git push origin branch : sube la rama en cuestión al repositorio remoto.
+
+$git clone url_repo : clona el repositorio remoto en el directorio local.
+
+NOTAS:
+- Las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
+
+- Para colocar emoticonos como ✌ en VS Code, debes usar la combinación de teclas (windows + .) y te sale el desplegable
