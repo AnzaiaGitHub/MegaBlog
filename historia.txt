@@ -91,3 +91,5 @@ $gitk : (GitKraken) es el software visual que ayuda a realizar seguimiento al fl
 $git push origin branch : sube la rama en cuestión al repositorio remoto.
 
 $git clone url_repo : clona el repositorio remoto en el directorio local.
+
+NOTA: las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
