@@ -89,3 +89,5 @@ $git show-branch --all : muestra todos los detalles de todas las ramas incluidas
 $gitk : (GitKraken) es el software visual que ayuda a realizar seguimiento al flujo de trabajo, commits y ramas del proyecto.
 
 $git push origin branch : sube la rama en cuestión al repositorio remoto.
+
+$git clone url_repo : clona el repositorio remoto en el directorio local.
