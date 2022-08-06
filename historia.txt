@@ -73,3 +73,19 @@ $git reset #commit --hard (el --soft deja vivos los commits, el --hard los reset
 $git remote add origin urldelrepo.com : añade el repositorio online como origen remoto en el repo local.
 
 $git pull origin main --allow-unrelated-histories : realiza el pull del repo online sin importar la diferencia entre commits.
+
+$git tag -a TextoDelTag -m "Descripción de referencia del tag" #commit : asigna una etiqueta al commit referenciado.
+
+$git push --tags : pushea los tags del repo local al repo remoto.
+
+$git tag -d tagName : borra un tag del repositorio según el nombre indicado.
+
+$git push origin :refs/tags/tagname : borra las etiquetas del repositorio remoto que no estén en el repositorio local y añade los cambios.
+
+$git show-branch : muestra las ramas del repositorio local y sus últimos commits.
+
+$git show-branch --all : muestra todos los detalles de todas las ramas incluidas las remotas.
+
+$gitk : (GitKraken) es el software visual que ayuda a realizar seguimiento al flujo de trabajo, commits y ramas del proyecto.
+
+$git push origin branch : sube la rama en cuestión al repositorio remoto.
