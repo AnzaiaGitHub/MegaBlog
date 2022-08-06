@@ -81,3 +81,7 @@ $git push --tags : pushea los tags del repo local al repo remoto.
 $git tag -d tagName : borra un tag del repositorio según el nombre indicado.
 
 $git push origin :refs/tags/tagname : borra las etiquetas del repositorio remoto que no estén en el repositorio local y añade los cambios.
+
+$git show-branch : muestra las ramas del repositorio local y sus últimos commits.
+
+$git show-branch --all : muestra todos los detalles de todas las ramas incluidas las remotas.
