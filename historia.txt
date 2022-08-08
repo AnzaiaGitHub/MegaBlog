@@ -96,3 +96,9 @@ NOTAS:
 - Las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
 
 - Para colocar emoticonos como ✌ en VS Code, debes usar la combinación de teclas (windows + .) y te sale el desplegable
+
+- Staging develop, un espacio de desarrollo con un entorno similar al que tendrá el usuario, sin embargo se utiliza para hacer las pruebas antes del deploy. Por lo general estas tareas las revisa el DevOps al igual que se ocupa de mantener actualizadas las versiones entre el master y el staging según sus últimos features.
+
+- Pull Request: es la revisión del feature desarrollado antes de hacer el merge al staging develop. Característica específica de GitHub.
+
+- Entidades HTML: &aacute; = á... cosas de HTML.
