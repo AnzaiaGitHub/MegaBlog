@@ -102,6 +102,12 @@ $git stash list : muestra los stash almacenados.
 
 $git stash drop : elimina los stash de la lista.
 
+$git clean --dry-run : simula una limpieza de archivos duplicados en el projecto y muestra qué archivos serán borrados.
+
+$git clean -f : realiza el borrado de los archivos que se mostraron en el --dry-run.
+
+$git cherry-pick #commit : trae los cambios del commit en cuestión a la rama actual (este commit puede ser de otra rama).
+
 NOTAS:
 - Las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
 
