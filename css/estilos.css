@@ -19,6 +19,11 @@ body{
 #container h1{
   font-size: 1.4rem;
 }
+#container img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 #header{
   background: darkslateblue;
   color: whitesmoke;

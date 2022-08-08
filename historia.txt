@@ -100,3 +100,5 @@ NOTAS:
 - Staging develop, un espacio de desarrollo con un entorno similar al que tendrá el usuario, sin embargo se utiliza para hacer las pruebas antes del deploy. Por lo general estas tareas las revisa el DevOps al igual que se ocupa de mantener actualizadas las versiones entre el master y el staging según sus últimos features.
 
 - Pull Request: es la revisión del feature desarrollado antes de hacer el merge al staging develop. Característica específica de GitHub.
+
+- Entidades HTML: &aacute; = á... cosas de HTML.
