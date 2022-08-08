@@ -11,6 +11,8 @@ $git commit -m "mensaje de commit" :sube al repositorio los cambios realizados c
 
 $git commit -am "mensaje del commit" : hace git add de los cambios y git commit. (solo para archivos ya creados anteriormente)
 
+$git commit --amend : pega los archivos nuevos y modificados al commit inmediatamente anterior. Pasa cuando olvidas realizar uno de los cambios que ibas a enviar en ese commit, por ejemplo esta segunda parte del mensaje.
+
 $git show : muestra las diferencias entre el último commit y su anterior.
 
 $git diff : muestra las diferencias entre el staging y el directorio actual.
@@ -37,9 +39,13 @@ $git log --author="name" : Commits hechos por el autor en cuestión.
 
 $git log -file.ext : Commits del archivo en cuestión.
 
+$git reflog : muestra con detalles los movimientos en el repositorio.
+
 $git branch new_branch : crea una rama en el proyecto.
 
 $git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
+
+$git branch -D branch : borra la rama del repositorio local.
 
 $git checkout #commit file.ext : realiza el llamado al archivo en su estado según ese commit indicado y lo trae al directorio. (Si quiere guardar esa versión anterior como la actual simplemente haga un commit)
 
