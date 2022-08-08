@@ -11,6 +11,7 @@
   #### Git ignore y buenas pr&aacute;cticas
   ```javascript
     alert("This is code written from the readme");
+  ```
   #### Llenar un README.md
-  ![](https://images.pexels.com/photos/6848796/pexels-photo-6848796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+  ![](https://images.pexels.com/photos/6848796/pexels-photo-6848796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg)
   >Surprise!
