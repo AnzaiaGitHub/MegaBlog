@@ -118,3 +118,5 @@ NOTAS:
 - Pull Request: es la revisión del feature desarrollado antes de hacer el merge al staging develop. Característica específica de GitHub.
 
 - Entidades HTML: &aacute; = á... cosas de HTML.
+
+- Dicen los comentarios que el cherry-pick es una mala práctica... ya lo sabremos:
