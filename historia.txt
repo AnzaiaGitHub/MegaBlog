@@ -92,6 +92,16 @@ $git push origin branch : sube la rama en cuestión al repositorio remoto.
 
 $git clone url_repo : clona el repositorio remoto en el directorio local.
 
+$git rebase branch : Pega la historia de commits de la rama actual en la que estás a la rama en cuestión. como si hubieras hecho los commits directamente desde el branch en cuestión. (Esto es MUUUUUUUY MALA práctica, sólo se debe usar en local, porque puedes estar sobreescribiendo el repositorio de los avances de todos los avances de otros en el proyecto.)
+
+$git stash : guarda los cambios locales desde el último commit hasta el actual estado del archivo en memoria, puedes cambiar de rama y demás.
+
+$git stash pop : devuelve los cambios almacenados del stash al directorio y los archivos locales.
+
+$git stash list : muestra los stash almacenados.
+
+$git stash drop : elimina los stash de la lista.
+
 NOTAS:
 - Las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
 
