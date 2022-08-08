@@ -118,3 +118,7 @@ NOTAS:
 - Pull Request: es la revisión del feature desarrollado antes de hacer el merge al staging develop. Característica específica de GitHub.
 
 - Entidades HTML: &aacute; = á... cosas de HTML.
+
+- Dicen los comentarios que el cherry-pick es una mala práctica... ya lo sabremos: Ahora lo dice Freddy Vega: porque pasa lo mismo del rebase, sobreescribes la historia.
+
+- Todo lo que sea mala práctica no es para dejar de usar los comandos, es para saber cómo y cuándo usarlos.
