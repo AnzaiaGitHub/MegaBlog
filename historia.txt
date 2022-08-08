@@ -11,6 +11,8 @@ $git commit -m "mensaje de commit" :sube al repositorio los cambios realizados c
 
 $git commit -am "mensaje del commit" : hace git add de los cambios y git commit. (solo para archivos ya creados anteriormente)
 
+$git commit --amend : pega los archivos nuevos y modificados al commit inmediatamente anterior. Pasa cuando olvidas realizar uno de los cambios que ibas a enviar en ese commit, por ejemplo esta segunda parte del mensaje.
+
 $git show : muestra las diferencias entre el último commit y su anterior.
 
 $git diff : muestra las diferencias entre el staging y el directorio actual.
@@ -37,9 +39,15 @@ $git log --author="name" : Commits hechos por el autor en cuestión.
 
 $git log -file.ext : Commits del archivo en cuestión.
 
+$git log -S "word" : trae todos los commits que tengan coincidencia con la palabra en cuestión.
+
+$git reflog : muestra con detalles los movimientos en el repositorio.
+
 $git branch new_branch : crea una rama en el proyecto.
 
 $git checkout new_branch : cambiarás la rama actual de trabajo a esa rama.
+
+$git branch -D branch : borra la rama del repositorio local.
 
 $git checkout #commit file.ext : realiza el llamado al archivo en su estado según ese commit indicado y lo trae al directorio. (Si quiere guardar esa versión anterior como la actual simplemente haga un commit)
 
@@ -55,7 +63,12 @@ $git reset #commit --hard : volvemos a dicho commit perdiendo todo el progreso p
 
 $git reset HEAD file.ext: resetea el archivo en el staging, porque tal vez no debía subir esos cambios al no estar listos para commitear.
 
------------Repositorio-Remoto---------------
+$git grep word : muestra todas las coincidencias de word en el directorio.
+
+$git grep -n word : muestra las coincidencias exactas de word en el directorio.
+
+$git grep -c word : muestra el número de coincidencias de word en el directorio (También pueden ser etiquetas html "<tag>").
+
 $git clone url_repositorio_remoto : descarga archivos e historial de cambios al directorio local y repositorio local.
 
 $git push : sube los commits realizados en el repositorio local al repositorio remoto.
@@ -102,6 +115,28 @@ $git stash list : muestra los stash almacenados.
 
 $git stash drop : elimina los stash de la lista.
 
+$git clean --dry-run : simula una limpieza de archivos duplicados en el projecto y muestra qué archivos serán borrados.
+
+$git clean -f : realiza el borrado de los archivos que se mostraron en el --dry-run.
+
+$git cherry-pick #commit : trae los cambios del commit en cuestión a la rama actual (este commit puede ser de otra rama).
+
+$git shortlog -sn : muestra cuantos commit han hecho cada miembros del equipo.
+
+$git shortlog -sn --all : muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado.
+
+$git shortlog -sn --all --no-merge : muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges.
+
+$git blame file.ext : muestra quien hizo cada cosa linea por linea.
+
+$git command --help : muestra como funciona el comando.
+
+$git blame file.ext -Llo,lf= muestra quien hizo cada cosa linea por linea indicándole desde que linea (lo) hasta cuál (lf) ver. ejemplo -L35,50.
+
+$git branch -r : se muestran todas las ramas remotas.
+
+$git branch -a : se muestran todas las ramas tanto locales como remotas.
+
 NOTAS:
 - Las imágenes son archivos binarios que hacen más pesado al repositorio, una buena práctica es tener dichos archivos aparte del repositorio.
 
@@ -112,3 +147,7 @@ NOTAS:
 - Pull Request: es la revisión del feature desarrollado antes de hacer el merge al staging develop. Característica específica de GitHub.
 
 - Entidades HTML: &aacute; = á... cosas de HTML.
+
+- Dicen los comentarios que el cherry-pick es una mala práctica... ya lo sabremos: Ahora lo dice Freddy Vega: porque pasa lo mismo del rebase, sobreescribes la historia.
+
+- Todo lo que sea mala práctica no es para dejar de usar los comandos, es para saber cómo y cuándo usarlos.
